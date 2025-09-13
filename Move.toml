@@ -1,0 +1,15 @@
+[package]
+name = "TokenTransferDashboard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x9459ae9b92e88d265b886f231b26227f7ca29f8704124acba744cfad2b0a7020"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
